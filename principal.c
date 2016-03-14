@@ -10,7 +10,7 @@ public class Jarra {
 		}
 		this.capacidad=capacidadInicial;
 	}
-//  metodos a
+//  metodosa
               1
               2
               3
