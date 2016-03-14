@@ -19,6 +19,10 @@ public class Jarra {
 				j.cantidad--;
 				} 
 			  }
+			  
+			  public String toString(){
+				return ("("+this.capacidad+","+this.cantidad+")");
+				}
         public void metodoComunitario(){
 // Comentario incluido para pruebas
            System.out.println("Aqui escribimos todos");
