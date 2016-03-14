@@ -13,8 +13,12 @@ public class Jarra {
 //  metodosa
               1
               2
-              3
-
+              public void llenaDesde(Jarra j){
+				while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
+					this.cantidad++;
+				j.cantidad--;
+				} 
+			  }
         public void metodoComunitario(){
 // Comentario incluido para pruebas
            System.out.println("Aqui escribimos todos");
