@@ -10,8 +10,13 @@ public class Jarra {
 		}
 		this.capacidad=capacidadInicial;
 	}
-//  metodosa
-              1
+//  metodos
+              public int capacidad(){
+		return this.capacidad;
+	}
+	public int cantidad(){
+		return this.cantidad;
+	}
               2
               3
 
